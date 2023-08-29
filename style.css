@@ -55,6 +55,9 @@ form {
   outline: 1px solid #e2e2e2;
   transition: all 100ms;
 }
+.input:-internal-autofill-selected {
+  background: #fff !important;
+}
 .input:hover,.select:hover,.textarea:hover {
   outline: 1px solid #ee3e3e;
   transition: all 100ms;
